@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kevinpatel.children_learning_app.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-50dp">
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/final1" />
+
+        <ImageView
+            android:id="@+id/iv"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:onClick="iv"
+            android:src="@drawable/alphabets" />
+
+        <ImageView
+            android:id="@+id/iv1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:onClick="iv1"
+            android:src="@drawable/numbers" />
+
+        <ImageView
+            android:id="@+id/animals"
+            android:onClick="animals"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="168dp"
+            android:src="@drawable/animals" />
+
+        <ImageView
+            android:id="@+id/colors"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="237dp"
+            android:onClick="colors"
+            android:src="@drawable/colors" />
+
+        <ImageView
+            android:id="@+id/iv4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="309dp"
+            android:onClick="iv4"
+            android:src="@drawable/shapes" />
+        <ImageView
+            android:id="@+id/quiz"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="quiz"
+            android:src="@drawable/quiz"
+            android:layout_below="@+id/iv4"
+            android:layout_alignStart="@+id/iv4"
+            android:layout_marginTop="13dp" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

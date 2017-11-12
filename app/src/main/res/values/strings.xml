@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KIDZANIA</string>
+    <string name="hint">Tap on mic to start</string>
+    <string name="blue">blue</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
